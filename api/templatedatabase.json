@@ -1,0 +1,69 @@
+{
+    "users": [
+        {
+            "info": {
+                "id": 123,
+                "name": "Eclyp",
+                "imgUrl": "https://yt3.googleusercontent.com/c_b_crblT1IkmkLizhK1rcgwMSJKe5biSk1h7lBOdAM5VhQvZaPB5n_RySCkm3VjpzvrCZWwjA=s76-c-k-c0x00ffffff-no-rj-mo",
+                "channels": ["1", "2"]
+            },
+            "session": {
+                "tokenId": "FErJ5Ew2G36t8cin9pbUP3",
+                "email": "hectoraderfer123421@gmail.com",
+                "password": "eclyppass123"
+            }
+        },
+        {
+            "info": {
+                "id": 1,
+                "name": "EclypBOT",
+                "imgUrl": "https://www.clipartmax.com/png/full/419-4197602_gnar-bot-is-a-imagenes-para-perfil-de-discord.png"
+            }, 
+            "session": {
+                "tokenId": "Boooow2G36t8cin9pbUP3",
+                "email": "eclypbot@gmail.com",
+                "password": "botpass123"
+            }
+        }
+    ],
+    "channels": [
+        {
+            "id": "1",
+            "name": "myChannel",
+            "type": "text",
+            "messages": [
+                {
+                    "id": 0,
+                    "msg": "Canal numero 1",
+                    "img": "https://www.clipartmax.com/png/full/419-4197602_gnar-bot-is-a-imagenes-para-perfil-de-discord.png",
+                    "channel": "123",
+                    "authorID": "1",
+                    "data": 20238619273
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "myChannel2",
+            "type": "text",
+            "messages": [
+                {
+                    "id": 0,
+                    "text": "Canal numero 2",
+                    "channel": "123",
+                    "authorID": "1",
+                    "data": 20238619273,
+                    "embed": false
+                },
+                {
+                    "id": 1,
+                    "text": "Canal numero 2",
+                    "channel": "123",
+                    "authorID": "1",
+                    "data": 20238619273,
+                    "embed": true
+                }
+            ]
+        }
+    ]
+}

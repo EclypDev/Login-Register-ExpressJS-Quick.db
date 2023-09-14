@@ -1,0 +1,126 @@
+:root {
+    --main-color: #7fff7f;
+    --error-color: #fe3c45;
+    --hover-buy: #347a47;
+    --hover-sell: #d9373f;
+    --hover-info: #218bdf;
+    --background-color: #1d1d1d;
+    --second-background: #1f2124;
+    --third-background: #23272a;
+    --fourth-background: #1e1e29;
+    --package-border: #353535;
+    --hover-text: #2c2f33;
+    --border: 5px;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #aeaeae;
+    --green-button: #4da564;
+    --font-family: Montserrat, sans-serif;
+    --opacity-image: 0.8;
+    --blur-image: 5px;
+    --accent-color: #ca6201;
+    --link-color: #007bff;
+    --highlight-color: #ff6b6b;
+    --dark-text-color: #333333;
+    --light-text-color: #f5f5f5;
+    --neutral-color: #cccccc;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    min-width: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  .display {
+    justify-content: center;
+    background-color: var(--second-background);
+    min-height: 500px;
+    height: auto;
+    width: 420px;
+    border-radius: var(--border);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+  
+  input {
+    height: 30px;
+    width: 90%;
+    padding: 10px;
+    background-color: var(--third-background);
+    border: none;
+    border-radius: 5px;
+    color: var(--light-text-color);
+    margin-bottom: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-text-color);
+    margin: 10px 0; 
+  }
+  
+  h1 {
+    font-size: 54px;
+  }
+  
+  h2 {
+    font-size: 20px; 
+  }
+  .margin {
+    margin: 30px;
+  }
+  .btn {
+    width: 80%;
+    height: 50px;
+    background-color: var(--green-button);
+    color: var(--dark-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 15px;
+  }
+  .margin {
+    margin: 10px;
+  }
+  .btn:hover {
+    background-color: var(--hover-buy);
+    scale: 1.02;
+  }
+  
+  .btn:active {
+    scale: 1;
+  }
+  .center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #display {
+    width: 100%;
+    height: auto;
+    color: var(--error-color);
+    text-align: left;
+    margin-left: 5%;
+    text-align: center;
+    margin: 10px;
+  }
+  label {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
